@@ -1,0 +1,6 @@
+##Get Environment variables from docker container
+
+
+docker exec '###DockerContainerIDHere##' env
+##Example:
+docker exec 35699bf68f80 env
